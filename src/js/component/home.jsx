@@ -8,7 +8,7 @@ const Home = () => {
 	return (
 		<>
 			<div id="traffic-top" className="d-flex justify-content-center aling-item-center"></div>
-			<div className="container bg-black p-2 rounded-4">
+			<div className="container bg-black py-2 rounded-4">
 				<div
 					className={
 						"light-red" + (selectedColor === "red" ? " glow" : "")
