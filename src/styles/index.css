@@ -1,12 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* 
+body {
+    background: url(https://images.pexels.com/photos/1021683/pexels-photo-1021683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) no-repeat center center/ cover;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+#traffic-top {
+    margin: auto;
+    width: 15px;
+    height: 150px;
+    border: 5px solid black;
+    background: black;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
 
-*/
+.container {
+    border: 5px solid black;
+    width: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.light-red {
+    background: red;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.light-yellow {
+    background: yellow;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.light-green {
+    background: green;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.glow {
+    box-shadow:
+        inset 0 0 50px #fff,
+        0 0 50px #fff,
+        -10px 0 80px #f0f,
+        10px 0 80px #0ff;
+}
